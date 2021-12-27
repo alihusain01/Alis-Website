@@ -13,6 +13,8 @@
         rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="default.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+
 </head>
 
 <body>
@@ -40,10 +42,10 @@
                     <img id="profile_pic" src="images/Ali-Headshot-Square_2_200x200.jpg">
                     <h5 style="text-align: center; line-height: 0;"> Personalize Theme </h5>
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
 
                     <p id="settings-note">*Theme settings will be saved for <br>
@@ -71,19 +73,145 @@
 
     <section class="s2">
         <div class="main-container">
-            About
+
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+                    <p>
+                        Content on information about me will be added later.
+                        For now, I'm focusing on the content of the website.
+                    </p>
+                    <p>
+                        Here we have even more placeholder words that will be updated
+                        later.
+                    </p>
+
+                    <hr>
+
+                    <h4>TOP EXPERTISE</h4>
+                    <p>Fullstack developer with primary focus on Django + React:
+                        <a target="_blank" href="">Download Resume</a>
+                    </p>
+
+                    <div id="skills">
+                        <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Postgres</li>
+                        </ul>
+                        <ul>
+                            <li>Google Maps API</li>
+                            <li>JS Charts</li>
+                            <li>AWS (RDS/S3)</li>
+                            <li>Heroku</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <img id="social_img" src="images/linkedin-snapshot.PNG">
+                    <h3>Find me on Linkedin</h3>
+                    <a target="_blank" href="linkedin.com/in/alijh"> Linkedin: linkedin.com/in/alijh</a>
+                </div>
+
+            </div>
         </div>
     </section>
+<!--
     <section class="s1">
         <div class="main-container">
-            Portfolio
+            <h3 style="text-align: center;"> Some of my past projects </h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/linkedin-snapshot.PNG">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is a sentence.
+                                Some more text here.
+                            </p>
+                            <a href="post.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/linkedin-snapshot.PNG">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is a sentence.
+                                Some more text here.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/linkedin-snapshot.PNG">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is a sentence.
+                                Some more text here.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+-->
+    <section class="s1">
+        <div class="main-container">
+            <a href=""></a>
+            <h3 style="text-align: center;">Get In Touch</h3>
+
+            <form id="contact-form">
+                <a name="contact"></a>
+
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
     <section class="s2">
         <div class="main-container">
-            Contact
+            <h3 style='text-align: center;'>Look me up</h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/github.svg">
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/linkedin.svg">
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/instagram.svg">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
