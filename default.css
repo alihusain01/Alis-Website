@@ -20,6 +20,7 @@
 html, body{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body * {
@@ -44,6 +45,7 @@ a{
 
 ul{
     list-style: none;
+    padding-inline-start: 0;
 }
 
 h1 { font-size: 56px;}
@@ -159,8 +161,8 @@ h6 { font-size: 16px;}
     display: block;
     margin:0 auto;
 
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     border: 2px solid var(--borderColor);
 }
@@ -308,6 +310,11 @@ h6 { font-size: 16px;}
     background-color: var(--secondaryColor);
 }
 
+.thumbnail:hover{
+    width: 115px;
+    height: 115px;
+}
+
 .post-preview{
     background-color: #fff;
     padding: 15px;
@@ -329,6 +336,7 @@ h6 { font-size: 16px;}
 	margin: 0 auto;
 	border: 1px solid var(--borderColor);
 	padding: 15px;
+    padding-right: 18px;
 	border-radius: 5px;
 	background-color: var(--mainColor);
 	margin-bottom: 50px;
@@ -384,5 +392,11 @@ h6 { font-size: 16px;}
 
     .right-column{
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #preview{
+        padding: 3px;
     }
 }
