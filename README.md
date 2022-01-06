@@ -10,8 +10,8 @@ Here are the tools, libraries, and plugins that I used to develop this site, as 
 
 | Tool                                                                 | Purpose                                                | In Use |
 |----------------------------------------------------------------------|--------------------------------------------------------|--------|
-| [Amazon Web Services - S3 Bucket](https://aws.amazon.com/aws/s3)     | Scalable storage in the cloud                          | ✅       |
-| [Amazon Web Services - Route 53](https://aws.amazon.com/aws/route53) | Scalable DNS and domain name registration              | ✅      |
+| [Amazon Web Services - S3 Bucket](https://aws.amazon.com/s3/)     | Scalable storage in the cloud                          | ✅       |
+| [Amazon Web Services - Route 53](https://aws.amazon.com/route53/) | Scalable DNS and domain name registration              | ✅      |
 | [Google Analytics](https://analytics.google.com)                     | Platform and plugins for measuring web user statistics | ✅      |
 | [Google Fonts](https://fonts.google.com)                             | Open source font embedding service library             | ✅      |
 | [Pageclip](https://pageclip.co)                                      | Server-less form information collection                | ✅      |
