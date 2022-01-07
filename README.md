@@ -1,6 +1,6 @@
 # Ali Husain's Website
 
-This repository holds the code for my personal website, [alihusa.in](https://alihusa.in). I hope to keep this website updated as frequently as possible with projects, personal interests, and more!
+This repository holds the code for my personal website, [alihusa.in](http://alihusa.in). I hope to keep this website updated as frequently as possible with projects, personal interests, and more!
 
 ## Stack
 
@@ -55,9 +55,9 @@ You can see the color pallete I used for each theme
 
 | Color     | Hex                                                                | In Use |
 |-----------|--------------------------------------------------------------------|--------|
-| Crocodile | ![#606B56](https://via.placeholder.com/10/606B56?text=+) `#606B56` | ✅      |
-| Alligator | ![#515a48](https://via.placeholder.com/10/515a48?text=+) `#515a48` | ✅      |
-| Pine      | ![#2a2f25](https://via.placeholder.com/10/2a2f25?text=+) `#2a2f25` | ✅      |
+| Mauve     | ![#46344e](https://via.placeholder.com/10/46344e?text=+) `#46344e` | ✅      |
+| Lavender  | ![#382a3f](https://via.placeholder.com/10/382a3f?text=+) `#382a3f` | ✅      |
+| Eggplant  | ![#2b202f](https://via.placeholder.com/10/2b202f?text=+) `#2b202f` | ✅      |
 | White     | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` | ✅      |
 | Off-White | ![#eeeeee](https://via.placeholder.com/10/eeeeee?text=+) `#eeeeee` | ✅      |
 
